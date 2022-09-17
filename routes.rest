@@ -1,0 +1,20 @@
+//LOCAL HOST
+###
+GET http://localhost:3000/contacts;
+
+
+###
+GET http://localhost:3000/contacts/632614d52c2da193fe2b454b
+
+
+###
+GET http://localhost:3000/contacts/632614b62c2da193fe2b38e4
+
+###
+GET http://localhost:3000/contacts/6326149b2c2da193fe2b2dcb
+
+
+//PRODUCTION DEPLOY
+
+
+

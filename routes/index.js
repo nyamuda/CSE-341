@@ -3,7 +3,7 @@ let router = express.Router();
 let controllers = require("../controllers");
 
 router.route("/")
-    .get(controllers.homeView)
+    .get(controllers.homeView);
 
 
 
