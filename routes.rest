@@ -15,6 +15,13 @@ GET http://localhost:3000/contacts/6326149b2c2da193fe2b2dcb
 
 
 //PRODUCTION DEPLOY
+###
+GET https://cse341-cut4.onrender.com/contacts
 
+###
+GET https://cse341-cut4.onrender.com/contacts/6326149b2c2da193fe2b2dcb
+
+###
+GET https://cse341-cut4.onrender.com/contacts/632614d52c2da193fe2b454b
 
 
