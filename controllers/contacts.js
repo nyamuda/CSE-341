@@ -35,7 +35,7 @@ module.exports.updateContact = function(req, res) {
     Contact.findByIdAndUpdate(req.params.id, data)
         .then(val => {
             res.statusCode = 204;
-            return res.json({ "message": "The contact was successfully updated. " });
+            return res.json({ "message": "The contact was successfully updated." });
         })
         .catch(err => res.json(err))
 }
@@ -44,6 +44,6 @@ module.exports.updateContact = function(req, res) {
 //delete a contact
 module.exports.deleteContact = function(req, res) {
     Contact.findByIdAndRemove(req.params.id)
-        .then(val => res.json({ "message": "The contact was successfully deleted. " }))
+        .then(val => res.json({ "message": "The contact was successfully deleted." }))
         .catch(err => res.json(err))
 }

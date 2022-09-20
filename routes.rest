@@ -47,10 +47,36 @@ DELETE http://localhost:3000/contacts/6329f5be9a848f36345aae0e
 GET https://cse341-cut4.onrender.com/contacts
 
 ###
+POST https://cse341-cut4.onrender.com/contacts
+Content-Type: application/json
+
+ {
+        "firstName": "tatenda",
+        "lastName": "nyamuda",
+        "email": "tatenda@gmail.com",
+        "favoriteColor": "orange",
+        "birthday": "12/05/1900"
+
+    }
+
+###
 GET https://cse341-cut4.onrender.com/contacts/6326149b2c2da193fe2b2dcb
 
 ###
 GET https://cse341-cut4.onrender.com/contacts/632614d52c2da193fe2b454b
+
+###
+PUT https://cse341-cut4.onrender.com/contacts/6329f5be9a848f36345aae0e
+Content-Type: application/json
+
+ {
+        "favoriteColor": "red"
+
+    }
+
+###
+DELETE https://cse341-cut4.onrender.com/contacts/6329f5be9a848f36345aae0e
+
 
 
 
