@@ -13,7 +13,8 @@ router.route("")
 
 router.route("/:id")
     .get(controllers.getContactById)
-    .put(controllers.updateContact);
+    .put(controllers.updateContact)
+    .delete(controllers.deleteContact);
 
 
 

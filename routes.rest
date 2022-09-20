@@ -4,28 +4,6 @@ GET http://localhost:3000/contacts
 
 
 ###
-GET http://localhost:3000/contacts/632614d52c2da193fe2b454b
-
-
-###
-GET http://localhost:3000/contacts/632614b62c2da193fe2b38e4
-
-###
-GET http://localhost:3000/contacts/6326149b2c2da193fe2b2dcb
-
-
-//PRODUCTION DEPLOY
-###
-GET https://cse341-cut4.onrender.com/contacts
-
-###
-GET https://cse341-cut4.onrender.com/contacts/6326149b2c2da193fe2b2dcb
-
-###
-GET https://cse341-cut4.onrender.com/contacts/632614d52c2da193fe2b454b
-
-
-###
 POST  http://localhost:3000/contacts
 Content-Type: application/json
 
@@ -39,13 +17,42 @@ Content-Type: application/json
     }
 
 
+
 ###
-PUT http://localhost:3000/contacts/6329e7c85aa92f57db58a4e6
+GET http://localhost:3000/contacts/632614d52c2da193fe2b454b
+
+
+###
+GET http://localhost:3000/contacts/632614b62c2da193fe2b38e4
+
+###
+GET http://localhost:3000/contacts/6326149b2c2da193fe2b2dcb
+
+###
+PUT http://localhost:3000/contacts/6329f5be9a848f36345aae0e
 Content-Type: application/json
 
  {
         "favoriteColor": "red"
 
     }
+
+###
+DELETE http://localhost:3000/contacts/6329f5be9a848f36345aae0e
+
+
+
+//PRODUCTION DEPLOY
+###
+GET https://cse341-cut4.onrender.com/contacts
+
+###
+GET https://cse341-cut4.onrender.com/contacts/6326149b2c2da193fe2b2dcb
+
+###
+GET https://cse341-cut4.onrender.com/contacts/632614d52c2da193fe2b454b
+
+
+
 
 
