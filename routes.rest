@@ -1,6 +1,6 @@
 //LOCAL HOST
 ###
-GET http://localhost:3000/contacts;
+GET http://localhost:3000/contacts
 
 
 ###
@@ -23,5 +23,29 @@ GET https://cse341-cut4.onrender.com/contacts/6326149b2c2da193fe2b2dcb
 
 ###
 GET https://cse341-cut4.onrender.com/contacts/632614d52c2da193fe2b454b
+
+
+###
+POST  http://localhost:3000/contacts
+Content-Type: application/json
+
+ {
+        "firstName": "tatenda",
+        "lastName": "nyamuda",
+        "email": "tatenda@gmail.com",
+        "favoriteColor": "orange",
+        "birthday": "12/05/1900"
+
+    }
+
+
+###
+PUT http://localhost:3000/contacts/6329e7c85aa92f57db58a4e6
+Content-Type: application/json
+
+ {
+        "favoriteColor": "red"
+
+    }
 
 
