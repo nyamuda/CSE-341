@@ -13,7 +13,7 @@ app.use("/contacts", contactRoutes);
 
 
 app.listen(port, () => {
-    console.log(`Example app listening to port ${port}`);
+    console.log(`Example application listening to port ${port}`);
 
     //connect to the database
     models.connect()

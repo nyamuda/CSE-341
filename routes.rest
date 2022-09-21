@@ -29,16 +29,16 @@ GET http://localhost:3000/contacts/632614b62c2da193fe2b38e4
 GET http://localhost:3000/contacts/6326149b2c2da193fe2b2dcb
 
 ###
-PUT http://localhost:3000/contacts/6329f5be9a848f36345aae0e
+PUT http://localhost:3000/contacts/632b46ee7f02525f5970c1db
 Content-Type: application/json
 
  {
-        "favoriteColor": "red"
+        "favoriteColor": "blue"
 
     }
 
 ###
-DELETE http://localhost:3000/contacts/6329f5be9a848f36345aae0e
+DELETE http://localhost:3000/contacts/632b46ee7f02525f5970c1db
 
 
 
@@ -66,16 +66,16 @@ GET https://cse341-cut4.onrender.com/contacts/6326149b2c2da193fe2b2dcb
 GET https://cse341-cut4.onrender.com/contacts/632614d52c2da193fe2b454b
 
 ###
-PUT https://cse341-cut4.onrender.com/contacts/6329f5be9a848f36345aae0e
+PUT https://cse341-cut4.onrender.com/contacts/632b4786b55c240f98b16eac
 Content-Type: application/json
 
  {
-        "favoriteColor": "red"
+        "favoriteColor": "yellow"
 
     }
 
 ###
-DELETE https://cse341-cut4.onrender.com/contacts/6329f5be9a848f36345aae0e
+DELETE https://cse341-cut4.onrender.com/contacts/632b4786b55c240f98b16eac
 
 
 
