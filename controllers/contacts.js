@@ -24,6 +24,7 @@ module.exports.addNewContact = function(req, res) {
             res.statusCode = 201;
             return res.json(val["_id"]);
         }).catch(err => {
+            res.statusCode = 500;
             return res.json(err);
         })
 
@@ -37,7 +38,10 @@ module.exports.updateContact = function(req, res) {
             res.statusCode = 204;
             return res.json({ "message": "The contact was successfully updated." });
         })
-        .catch(err => res.json(err))
+        .catch(err => {
+            res.statusCode = 500;
+            return res.json(err)
+        })
 }
 
 
