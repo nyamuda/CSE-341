@@ -5,7 +5,7 @@
     "description": "Description",
     "version": "1.0.0"
   },
-  "host": "cse341-cut4.onrender.com/",
+  "host": "cse341-cut4.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
