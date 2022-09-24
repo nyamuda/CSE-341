@@ -4,7 +4,7 @@ let controllers = require("../controllers/")
 
 
 
-router.route("")
+router.route("/")
     .get(controllers.getAllContacts)
     .post(controllers.addNewContact)
 

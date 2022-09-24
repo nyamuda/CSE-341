@@ -2,7 +2,7 @@ let express = require("express");
 let router = express.Router();
 let controllers = require("../controllers");
 
-router.route("/")
+router.route("")
     .get(controllers.homeView);
 
 
