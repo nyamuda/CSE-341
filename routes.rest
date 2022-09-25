@@ -54,7 +54,7 @@ Content-Type: application/json
         "firstName": "tatenda",
         "lastName": "nyamuda",
         "email": "tatenda@gmail.com",
-        "favoriteColor": "orange",
+        "favoriteColor": "blue",
         "birthday": "12/05/1900"
 
     }
